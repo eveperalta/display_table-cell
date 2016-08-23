@@ -1,0 +1,50 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+.home{
+	background-color:#6AD1FC;
+	width: 100px;
+	height: 80px;
+	margin-top: 2px;
+	position: relative;
+}
+.about{
+	background-color: #C2FBF6;
+	width: 100px;
+	height: 80px;
+	position: relative;
+}
+.portfolio{
+	background-color: #FED38E;
+	width: 100px;
+	height: 80px;
+	position: relative;
+}
+.contact{
+	background-color: #FDA5C4;
+	width: 100px;
+	height: 80px;
+	position: relative;
+}
+.empty:hover{
+	background-color:black;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	overflow: hidden;
+	float:left;
+}
+
